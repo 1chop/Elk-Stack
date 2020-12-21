@@ -1,2 +1,0 @@
-# Elk-Stack
-Project-one
