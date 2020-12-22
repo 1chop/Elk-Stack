@@ -32,13 +32,12 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-
+| Name      | Function   | IP Address | Operating System |
+|-----------|------------|------------|------------------|
+| Jumpbox   | gateway    | 10.0.0.1   | Lunix            |
+| VMW1      | web server | 10.0.0.8   | Lunix            |
+| VMW2      | web sever  | 10.0.0.7   | Lunix            |
+| Elk-Stack | moniter    | 10.0.1.2   | lunix            |
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet. 
